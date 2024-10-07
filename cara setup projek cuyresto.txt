@@ -1,0 +1,29 @@
+cara pertama adalah download xampp, link nya ada di file catatan.
+install file hasil download nya.
+kalau ada notif tinggal di ok ok aja, terus klik next2 aja sampai selesai.
+
+beres install pas pencet finish akan otomatis terbuka xampp, atau mau buka sendiri juga bisa.
+
+nyalakan service apache dan mysql, pencet tombol start nya sampe text jadi hijau & muncul port.
+
+download source code dari google drive.
+extract file zip yang namanya codingan_final.zip.
+
+copy folder cuyresto ke folder htdocs yang ada di installan xampp (biasanya ada di drive C langsung).
+
+paste folder yang di copy barusan ke dalem folder htdocs nya.
+buka lagi folder hasil extract barusan, cari file namanya cuyresto.sql, ini adalah database kita.
+
+buka panel database di xampp, klik tombol admin pada bagian service mysql.
+
+pencet new di bagian menu kiri untuk bikin database baru. kasih nama cuyresto, pencet tombol create.
+
+pergi ke menu import untuk masukin sql file kita, klik choose file. pilih cuyresto.sql. pencet tombol import, tungguin sampe muncul 3 table baru yaitu admiin, history dan meja.
+
+buka url baru di browser, ketik localhost/cuyresto.
+masukin data login, username admin, password admin123.
+
+coba kosongkan meja yang sudah terisi, coba juga isi meja yang masih kosong.
+
+ketika meja di kosongkan datanya otomatis direkap oleh sistem sebagai report.
+klik menu report, tentukan tanggal reportnya. klik generate report maka akan langsung tergenerate file PDF untuk laporan pengunjung restoran.
